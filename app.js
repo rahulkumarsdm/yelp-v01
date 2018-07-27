@@ -37,7 +37,7 @@ app.post('/campgrounds', function(req, res){
 	res.redirect('/campgrounds');
 });
 
-app.listen(3000,function(){
+app.listen(8080,function(){
 	console.log("Server running");
 });
 
